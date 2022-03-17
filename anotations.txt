@@ -1,0 +1,13 @@
+//sequelize commands
+
+// Create database
+sequelize db:create
+
+// Create migrations at database
+sequelize db:migrate
+
+// Create migration with specified name (users for example)
+sequelize migration:create --name=create-users
+
+// Undo the last migration did at database
+sequelize db:migrate:undo
