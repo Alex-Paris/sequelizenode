@@ -1,6 +1,5 @@
 const { Op } = require('sequelize');
 
-const Tech = require('../models/Tech');
 const User = require('../models/User');
 
 module.exports = {
